@@ -370,14 +370,14 @@ To prevent abuse, the API enforces rate limits:
 - **Anonymous Users:** 100 requests per minute.
 - **Authenticated Users:** 300 requests per minute.
 
-If the limit is exceeded, the API will return a `429 Too Many Requests` status code, along with a possible `Retry-After` header indicating the wait time before subsequent requests.
+If the limit is exceeded, the API will return a `429 Too Many Requests` status code.
 
 ## Logging & Monitoring
 
 The API utilizes Django's logging framework to monitor events and issues. Logs are output to:
 
 - A file: `logs/task_management.log`
-- The console (during development)
+
 
 ## Error Handling
 
