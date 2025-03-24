@@ -1,4 +1,4 @@
-```md
+
 # Task Management API
 
 This API allows users to register (using JWT), log in, and perform CRUD (Create, Read, Update, Delete) operations on tasks. It supports advanced features such as filtering, searching, ordering, pagination, rate limiting, and logging.
@@ -389,4 +389,4 @@ Standard HTTP status codes are used to indicate request outcomes:
 - **404 Not Found:** The requested resource was not found.
 - **429 Too Many Requests:** Rate limit exceeded.
 - **500 Internal Server Error:** An unexpected error occurred on the server.
-```
+
