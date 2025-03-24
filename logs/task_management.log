@@ -1,0 +1,201 @@
+INFO 2025-03-24 16:48:02,475 autoreload 9268 10096 Watching for file changes with StatReloader
+INFO 2025-03-24 16:48:02,475 autoreload 9268 10096 Watching for file changes with StatReloader
+INFO 2025-03-24 16:50:33,291 basehttp 9268 16128 "POST /api/users/register/ HTTP/1.1" 201 29
+INFO 2025-03-24 16:50:33,291 basehttp 9268 16128 "POST /api/users/register/ HTTP/1.1" 201 29
+WARNING 2025-03-24 16:51:35,532 log 9268 11460 Method Not Allowed: /api/users/login/
+WARNING 2025-03-24 16:51:35,532 log 9268 11460 Method Not Allowed: /api/users/login/
+WARNING 2025-03-24 16:51:35,534 basehttp 9268 11460 "GET /api/users/login/ HTTP/1.1" 405 40
+WARNING 2025-03-24 16:51:35,534 basehttp 9268 11460 "GET /api/users/login/ HTTP/1.1" 405 40
+INFO 2025-03-24 16:51:40,954 basehttp 9268 12256 "POST /api/users/login/ HTTP/1.1" 200 625
+INFO 2025-03-24 16:51:40,954 basehttp 9268 12256 "POST /api/users/login/ HTTP/1.1" 200 625
+WARNING 2025-03-24 16:53:00,565 log 9268 828 Unauthorized: /api/tasks/
+WARNING 2025-03-24 16:53:00,565 log 9268 828 Unauthorized: /api/tasks/
+WARNING 2025-03-24 16:53:00,567 basehttp 9268 828 "POST /api/tasks/ HTTP/1.1" 401 107
+WARNING 2025-03-24 16:53:00,567 basehttp 9268 828 "POST /api/tasks/ HTTP/1.1" 401 107
+INFO 2025-03-24 16:53:35,391 views 9268 7096 User 7 created a new task: Buy groceries
+INFO 2025-03-24 16:53:35,394 basehttp 9268 7096 "POST /api/tasks/ HTTP/1.1" 201 90
+INFO 2025-03-24 16:53:35,394 basehttp 9268 7096 "POST /api/tasks/ HTTP/1.1" 201 90
+INFO 2025-03-24 16:53:53,897 views 9268 9604 User 7 created a new task: Buy Meat
+INFO 2025-03-24 16:53:53,898 basehttp 9268 9604 "POST /api/tasks/ HTTP/1.1" 201 70
+INFO 2025-03-24 16:53:53,898 basehttp 9268 9604 "POST /api/tasks/ HTTP/1.1" 201 70
+INFO 2025-03-24 16:54:02,420 views 9268 11760 User 7 created a new task: Buy Coke
+INFO 2025-03-24 16:54:02,421 basehttp 9268 11760 "POST /api/tasks/ HTTP/1.1" 201 70
+INFO 2025-03-24 16:54:02,421 basehttp 9268 11760 "POST /api/tasks/ HTTP/1.1" 201 70
+INFO 2025-03-24 16:54:11,208 views 9268 9892 User 7 created a new task: Buy Cake
+INFO 2025-03-24 16:54:11,210 basehttp 9268 9892 "POST /api/tasks/ HTTP/1.1" 201 70
+INFO 2025-03-24 16:54:11,210 basehttp 9268 9892 "POST /api/tasks/ HTTP/1.1" 201 70
+INFO 2025-03-24 16:54:35,934 views 9268 13144 User 7 created a new task: Buy drinks
+INFO 2025-03-24 16:54:35,937 basehttp 9268 13144 "POST /api/tasks/ HTTP/1.1" 201 74
+INFO 2025-03-24 16:54:35,937 basehttp 9268 13144 "POST /api/tasks/ HTTP/1.1" 201 74
+INFO 2025-03-24 16:54:37,373 views 9268 12120 User 7 created a new task: Buy drinks
+INFO 2025-03-24 16:54:37,376 basehttp 9268 12120 "POST /api/tasks/ HTTP/1.1" 201 74
+INFO 2025-03-24 16:54:37,376 basehttp 9268 12120 "POST /api/tasks/ HTTP/1.1" 201 74
+INFO 2025-03-24 16:54:53,001 basehttp 9268 14508 "GET /admin/ HTTP/1.1" 200 6642
+INFO 2025-03-24 16:54:53,001 basehttp 9268 14508 "GET /admin/ HTTP/1.1" 200 6642
+INFO 2025-03-24 16:54:55,564 basehttp 9268 14508 "GET /admin/tasks/task/ HTTP/1.1" 200 10356
+INFO 2025-03-24 16:54:55,564 basehttp 9268 14508 "GET /admin/tasks/task/ HTTP/1.1" 200 10356
+INFO 2025-03-24 16:54:55,638 basehttp 9268 14508 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-24 16:54:55,638 basehttp 9268 14508 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-24 16:54:57,737 basehttp 9268 14508 "GET /admin/tasks/task/2/change/ HTTP/1.1" 200 12222
+INFO 2025-03-24 16:54:57,737 basehttp 9268 14508 "GET /admin/tasks/task/2/change/ HTTP/1.1" 200 12222
+INFO 2025-03-24 16:54:57,779 basehttp 9268 14508 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-24 16:54:57,779 basehttp 9268 14508 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-24 16:55:00,833 basehttp 9268 14508 "GET /admin/tasks/task/ HTTP/1.1" 200 10356
+INFO 2025-03-24 16:55:00,833 basehttp 9268 14508 "GET /admin/tasks/task/ HTTP/1.1" 200 10356
+INFO 2025-03-24 16:55:02,274 basehttp 9268 14508 "GET /admin/tasks/task/7/change/ HTTP/1.1" 200 12197
+INFO 2025-03-24 16:55:02,274 basehttp 9268 14508 "GET /admin/tasks/task/7/change/ HTTP/1.1" 200 12197
+INFO 2025-03-24 16:55:02,325 basehttp 9268 14508 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-24 16:55:02,325 basehttp 9268 14508 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-03-24 16:57:13,140 autoreload 9268 10096 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\tasks\views.py changed, reloading.
+INFO 2025-03-24 16:57:13,140 autoreload 9268 10096 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\tasks\views.py changed, reloading.
+INFO 2025-03-24 16:57:13,985 autoreload 9288 5392 Watching for file changes with StatReloader
+INFO 2025-03-24 16:57:13,985 autoreload 9288 5392 Watching for file changes with StatReloader
+INFO 2025-03-24 16:57:15,946 autoreload 9288 5392 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\tasks\views.py changed, reloading.
+INFO 2025-03-24 16:57:15,946 autoreload 9288 5392 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\tasks\views.py changed, reloading.
+INFO 2025-03-24 16:57:16,755 autoreload 6548 6752 Watching for file changes with StatReloader
+INFO 2025-03-24 16:57:16,755 autoreload 6548 6752 Watching for file changes with StatReloader
+INFO 2025-03-24 16:58:04,238 autoreload 6548 6752 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\tasks\views.py changed, reloading.
+INFO 2025-03-24 16:58:04,238 autoreload 6548 6752 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\tasks\views.py changed, reloading.
+INFO 2025-03-24 16:58:05,029 autoreload 3156 6376 Watching for file changes with StatReloader
+INFO 2025-03-24 16:58:05,029 autoreload 3156 6376 Watching for file changes with StatReloader
+INFO 2025-03-24 16:58:21,011 autoreload 3156 6376 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\tasks\views.py changed, reloading.
+INFO 2025-03-24 16:58:21,011 autoreload 3156 6376 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\tasks\views.py changed, reloading.
+INFO 2025-03-24 16:58:21,818 autoreload 16244 8436 Watching for file changes with StatReloader
+INFO 2025-03-24 16:58:21,818 autoreload 16244 8436 Watching for file changes with StatReloader
+INFO 2025-03-24 16:58:23,485 autoreload 16244 8436 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\tasks\views.py changed, reloading.
+INFO 2025-03-24 16:58:23,485 autoreload 16244 8436 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\tasks\views.py changed, reloading.
+INFO 2025-03-24 16:58:24,297 autoreload 16260 5784 Watching for file changes with StatReloader
+INFO 2025-03-24 16:58:24,297 autoreload 16260 5784 Watching for file changes with StatReloader
+INFO 2025-03-24 16:58:37,813 autoreload 16260 5784 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\tasks\views.py changed, reloading.
+INFO 2025-03-24 16:58:37,813 autoreload 16260 5784 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\tasks\views.py changed, reloading.
+INFO 2025-03-24 16:58:38,693 autoreload 8740 3572 Watching for file changes with StatReloader
+INFO 2025-03-24 16:58:38,693 autoreload 8740 3572 Watching for file changes with StatReloader
+INFO 2025-03-24 16:58:50,968 autoreload 8740 3572 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\tasks\views.py changed, reloading.
+INFO 2025-03-24 16:58:50,968 autoreload 8740 3572 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\tasks\views.py changed, reloading.
+INFO 2025-03-24 16:58:52,195 autoreload 6444 14328 Watching for file changes with StatReloader
+INFO 2025-03-24 16:58:52,195 autoreload 6444 14328 Watching for file changes with StatReloader
+INFO 2025-03-24 16:59:54,647 autoreload 6444 14328 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\tasks\views.py changed, reloading.
+INFO 2025-03-24 16:59:54,647 autoreload 6444 14328 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\tasks\views.py changed, reloading.
+INFO 2025-03-24 16:59:55,608 autoreload 5556 4264 Watching for file changes with StatReloader
+INFO 2025-03-24 16:59:55,608 autoreload 5556 4264 Watching for file changes with StatReloader
+INFO 2025-03-24 17:00:04,658 views 5556 10548 User 7 created a new task: Meeting
+INFO 2025-03-24 17:00:04,668 basehttp 5556 10548 "POST /api/tasks/ HTTP/1.1" 201 72
+INFO 2025-03-24 17:00:04,668 basehttp 5556 10548 "POST /api/tasks/ HTTP/1.1" 201 72
+INFO 2025-03-24 17:00:24,074 basehttp 5556 980 "GET /api/tasks/ HTTP/1.1" 200 963
+INFO 2025-03-24 17:00:24,074 basehttp 5556 980 "GET /api/tasks/ HTTP/1.1" 200 963
+INFO 2025-03-24 17:01:24,302 basehttp 5556 16356 "GET /api/tasks/1 HTTP/1.1" 301 0
+INFO 2025-03-24 17:01:24,302 basehttp 5556 16356 "GET /api/tasks/1 HTTP/1.1" 301 0
+WARNING 2025-03-24 17:01:24,315 log 5556 13280 Not Found: /api/tasks/1/
+WARNING 2025-03-24 17:01:24,315 log 5556 13280 Not Found: /api/tasks/1/
+WARNING 2025-03-24 17:01:24,318 basehttp 5556 13280 "GET /api/tasks/1/ HTTP/1.1" 404 45
+WARNING 2025-03-24 17:01:24,318 basehttp 5556 13280 "GET /api/tasks/1/ HTTP/1.1" 404 45
+WARNING 2025-03-24 17:01:35,879 log 5556 8748 Not Found: /api/tasks/1/
+WARNING 2025-03-24 17:01:35,879 log 5556 8748 Not Found: /api/tasks/1/
+WARNING 2025-03-24 17:01:35,881 basehttp 5556 8748 "GET /api/tasks/1/ HTTP/1.1" 404 45
+WARNING 2025-03-24 17:01:35,881 basehttp 5556 8748 "GET /api/tasks/1/ HTTP/1.1" 404 45
+INFO 2025-03-24 17:01:42,725 basehttp 5556 13296 "GET /api/tasks/2/ HTTP/1.1" 200 192
+INFO 2025-03-24 17:01:42,725 basehttp 5556 13296 "GET /api/tasks/2/ HTTP/1.1" 200 192
+INFO 2025-03-24 17:02:27,775 basehttp 5556 1180 "GET /api/tasks/7/ HTTP/1.1" 200 176
+INFO 2025-03-24 17:02:27,775 basehttp 5556 1180 "GET /api/tasks/7/ HTTP/1.1" 200 176
+INFO 2025-03-24 17:02:46,549 basehttp 5556 16348 "PUT /api/tasks/7/ HTTP/1.1" 200 66
+INFO 2025-03-24 17:02:46,549 basehttp 5556 16348 "PUT /api/tasks/7/ HTTP/1.1" 200 66
+INFO 2025-03-24 17:02:53,565 basehttp 5556 10336 "GET /api/tasks/7/ HTTP/1.1" 200 168
+INFO 2025-03-24 17:02:53,565 basehttp 5556 10336 "GET /api/tasks/7/ HTTP/1.1" 200 168
+INFO 2025-03-24 17:03:33,523 basehttp 5556 13336 "DELETE /api/tasks/7/ HTTP/1.1" 204 0
+INFO 2025-03-24 17:03:33,523 basehttp 5556 13336 "DELETE /api/tasks/7/ HTTP/1.1" 204 0
+WARNING 2025-03-24 17:03:36,899 log 5556 2932 Not Found: /api/tasks/7/
+WARNING 2025-03-24 17:03:36,899 log 5556 2932 Not Found: /api/tasks/7/
+WARNING 2025-03-24 17:03:36,900 basehttp 5556 2932 "GET /api/tasks/7/ HTTP/1.1" 404 45
+WARNING 2025-03-24 17:03:36,900 basehttp 5556 2932 "GET /api/tasks/7/ HTTP/1.1" 404 45
+INFO 2025-03-24 17:03:53,588 basehttp 5556 5696 "GET /api/tasks/?status=pending HTTP/1.1" 200 763
+INFO 2025-03-24 17:03:53,588 basehttp 5556 5696 "GET /api/tasks/?status=pending HTTP/1.1" 200 763
+INFO 2025-03-24 17:04:05,066 basehttp 5556 5752 "GET /api/tasks/?status=on_hold HTTP/1.1" 200 403
+INFO 2025-03-24 17:04:05,066 basehttp 5556 5752 "GET /api/tasks/?status=on_hold HTTP/1.1" 200 403
+INFO 2025-03-24 17:04:34,712 basehttp 5556 708 "GET /api/tasks/?search=cake HTTP/1.1" 200 224
+INFO 2025-03-24 17:04:34,712 basehttp 5556 708 "GET /api/tasks/?search=cake HTTP/1.1" 200 224
+INFO 2025-03-24 17:04:46,142 basehttp 5556 13148 "GET /api/tasks/?search=drinks HTTP/1.1" 200 228
+INFO 2025-03-24 17:04:46,142 basehttp 5556 13148 "GET /api/tasks/?search=drinks HTTP/1.1" 200 228
+INFO 2025-03-24 17:05:07,124 basehttp 5556 9940 "GET /api/tasks/?ordering=title HTTP/1.1" 200 992
+INFO 2025-03-24 17:05:07,124 basehttp 5556 9940 "GET /api/tasks/?ordering=title HTTP/1.1" 200 992
+INFO 2025-03-24 17:05:29,970 basehttp 5556 732 "GET /api/tasks/?page=1 HTTP/1.1" 200 959
+INFO 2025-03-24 17:05:29,970 basehttp 5556 732 "GET /api/tasks/?page=1 HTTP/1.1" 200 959
+INFO 2025-03-24 17:05:35,074 basehttp 5556 6540 "GET /api/tasks/?page=2 HTTP/1.1" 200 274
+INFO 2025-03-24 17:05:35,074 basehttp 5556 6540 "GET /api/tasks/?page=2 HTTP/1.1" 200 274
+WARNING 2025-03-24 17:05:39,335 log 5556 14584 Not Found: /api/tasks/
+WARNING 2025-03-24 17:05:39,335 log 5556 14584 Not Found: /api/tasks/
+WARNING 2025-03-24 17:05:39,336 basehttp 5556 14584 "GET /api/tasks/?page=3 HTTP/1.1" 404 26
+WARNING 2025-03-24 17:05:39,336 basehttp 5556 14584 "GET /api/tasks/?page=3 HTTP/1.1" 404 26
+INFO 2025-03-24 17:06:09,628 basehttp 5556 13928 "GET /api/tasks/?status=pending&ordering=title&page=1 HTTP/1.1" 200 763
+INFO 2025-03-24 17:06:09,628 basehttp 5556 13928 "GET /api/tasks/?status=pending&ordering=title&page=1 HTTP/1.1" 200 763
+INFO 2025-03-24 17:10:27,891 autoreload 5556 4264 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\zenz\settings.py changed, reloading.
+INFO 2025-03-24 17:10:27,891 autoreload 5556 4264 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\zenz\settings.py changed, reloading.
+INFO 2025-03-24 17:10:28,876 autoreload 13928 15024 Watching for file changes with StatReloader
+INFO 2025-03-24 17:10:28,876 autoreload 13928 15024 Watching for file changes with StatReloader
+INFO 2025-03-24 17:10:51,627 autoreload 13928 15024 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\users\views.py changed, reloading.
+INFO 2025-03-24 17:10:51,627 autoreload 13928 15024 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\users\views.py changed, reloading.
+INFO 2025-03-24 17:10:52,576 autoreload 7724 6400 Watching for file changes with StatReloader
+INFO 2025-03-24 17:10:52,576 autoreload 7724 6400 Watching for file changes with StatReloader
+INFO 2025-03-24 17:10:59,213 autoreload 7724 6400 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\users\views.py changed, reloading.
+INFO 2025-03-24 17:10:59,213 autoreload 7724 6400 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\users\views.py changed, reloading.
+INFO 2025-03-24 17:11:00,064 autoreload 6244 15020 Watching for file changes with StatReloader
+INFO 2025-03-24 17:11:00,064 autoreload 6244 15020 Watching for file changes with StatReloader
+INFO 2025-03-24 17:11:04,161 autoreload 6244 15020 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\users\views.py changed, reloading.
+INFO 2025-03-24 17:11:04,161 autoreload 6244 15020 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\users\views.py changed, reloading.
+INFO 2025-03-24 17:11:05,064 autoreload 10436 14716 Watching for file changes with StatReloader
+INFO 2025-03-24 17:11:05,064 autoreload 10436 14716 Watching for file changes with StatReloader
+INFO 2025-03-24 17:11:10,185 autoreload 10436 14716 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\users\views.py changed, reloading.
+INFO 2025-03-24 17:11:10,185 autoreload 10436 14716 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\users\views.py changed, reloading.
+INFO 2025-03-24 17:11:11,037 autoreload 14936 1260 Watching for file changes with StatReloader
+INFO 2025-03-24 17:11:11,037 autoreload 14936 1260 Watching for file changes with StatReloader
+INFO 2025-03-24 17:11:17,610 autoreload 14936 1260 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\users\views.py changed, reloading.
+INFO 2025-03-24 17:11:17,610 autoreload 14936 1260 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\users\views.py changed, reloading.
+INFO 2025-03-24 17:11:19,057 autoreload 1480 15368 Watching for file changes with StatReloader
+INFO 2025-03-24 17:11:19,057 autoreload 1480 15368 Watching for file changes with StatReloader
+INFO 2025-03-24 17:11:24,283 autoreload 1480 15368 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\users\views.py changed, reloading.
+INFO 2025-03-24 17:11:24,283 autoreload 1480 15368 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\users\views.py changed, reloading.
+INFO 2025-03-24 17:11:25,199 autoreload 14848 10336 Watching for file changes with StatReloader
+INFO 2025-03-24 17:11:25,199 autoreload 14848 10336 Watching for file changes with StatReloader
+INFO 2025-03-24 17:11:39,452 autoreload 14848 10336 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\users\views.py changed, reloading.
+INFO 2025-03-24 17:11:39,452 autoreload 14848 10336 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\users\views.py changed, reloading.
+INFO 2025-03-24 17:11:40,539 autoreload 8488 14440 Watching for file changes with StatReloader
+INFO 2025-03-24 17:11:40,539 autoreload 8488 14440 Watching for file changes with StatReloader
+INFO 2025-03-24 17:12:04,311 autoreload 8488 14440 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\users\serializers.py changed, reloading.
+INFO 2025-03-24 17:12:04,311 autoreload 8488 14440 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\users\serializers.py changed, reloading.
+INFO 2025-03-24 17:12:05,314 autoreload 1500 4228 Watching for file changes with StatReloader
+INFO 2025-03-24 17:12:05,314 autoreload 1500 4228 Watching for file changes with StatReloader
+INFO 2025-03-24 17:12:22,092 autoreload 1500 4228 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\tasks\views.py changed, reloading.
+INFO 2025-03-24 17:12:22,092 autoreload 1500 4228 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\tasks\views.py changed, reloading.
+INFO 2025-03-24 17:12:22,913 autoreload 12140 3336 Watching for file changes with StatReloader
+INFO 2025-03-24 17:12:22,913 autoreload 12140 3336 Watching for file changes with StatReloader
+INFO 2025-03-24 17:12:24,742 autoreload 12140 3336 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\tasks\views.py changed, reloading.
+INFO 2025-03-24 17:12:24,742 autoreload 12140 3336 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\tasks\views.py changed, reloading.
+INFO 2025-03-24 17:12:25,527 autoreload 8088 3404 Watching for file changes with StatReloader
+INFO 2025-03-24 17:12:25,527 autoreload 8088 3404 Watching for file changes with StatReloader
+INFO 2025-03-24 17:12:35,330 autoreload 8088 3404 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\tasks\views.py changed, reloading.
+INFO 2025-03-24 17:12:35,330 autoreload 8088 3404 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\tasks\views.py changed, reloading.
+INFO 2025-03-24 17:12:36,325 autoreload 13360 6948 Watching for file changes with StatReloader
+INFO 2025-03-24 17:12:36,325 autoreload 13360 6948 Watching for file changes with StatReloader
+INFO 2025-03-24 17:12:45,182 autoreload 13360 6948 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\tasks\views.py changed, reloading.
+INFO 2025-03-24 17:12:45,182 autoreload 13360 6948 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\tasks\views.py changed, reloading.
+INFO 2025-03-24 17:12:46,024 autoreload 9984 10140 Watching for file changes with StatReloader
+INFO 2025-03-24 17:12:46,024 autoreload 9984 10140 Watching for file changes with StatReloader
+INFO 2025-03-24 17:12:53,803 autoreload 9984 10140 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\tasks\urls.py changed, reloading.
+INFO 2025-03-24 17:12:53,803 autoreload 9984 10140 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\tasks\urls.py changed, reloading.
+INFO 2025-03-24 17:12:54,829 autoreload 2384 4272 Watching for file changes with StatReloader
+INFO 2025-03-24 17:12:54,829 autoreload 2384 4272 Watching for file changes with StatReloader
+INFO 2025-03-24 17:13:03,652 autoreload 2384 4272 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\tasks\serializers.py changed, reloading.
+INFO 2025-03-24 17:13:03,652 autoreload 2384 4272 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\tasks\serializers.py changed, reloading.
+INFO 2025-03-24 17:13:04,765 autoreload 784 11484 Watching for file changes with StatReloader
+INFO 2025-03-24 17:13:04,765 autoreload 784 11484 Watching for file changes with StatReloader
+INFO 2025-03-24 17:13:08,767 autoreload 784 11484 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\tasks\serializers.py changed, reloading.
+INFO 2025-03-24 17:13:08,767 autoreload 784 11484 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\tasks\serializers.py changed, reloading.
+INFO 2025-03-24 17:13:09,568 autoreload 6884 4936 Watching for file changes with StatReloader
+INFO 2025-03-24 17:13:09,568 autoreload 6884 4936 Watching for file changes with StatReloader
+INFO 2025-03-24 17:13:18,332 autoreload 6884 4936 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\tasks\serializers.py changed, reloading.
+INFO 2025-03-24 17:13:18,332 autoreload 6884 4936 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\tasks\serializers.py changed, reloading.
+INFO 2025-03-24 17:13:19,199 autoreload 16224 15724 Watching for file changes with StatReloader
+INFO 2025-03-24 17:13:19,199 autoreload 16224 15724 Watching for file changes with StatReloader
+INFO 2025-03-24 17:13:30,453 autoreload 16224 15724 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\tasks\permissions.py changed, reloading.
+INFO 2025-03-24 17:13:30,453 autoreload 16224 15724 C:\Users\Hellx\Documents\Programming\Backend\django\zenz\tasks\permissions.py changed, reloading.
+INFO 2025-03-24 17:13:31,479 autoreload 3332 14964 Watching for file changes with StatReloader
+INFO 2025-03-24 17:13:31,479 autoreload 3332 14964 Watching for file changes with StatReloader
