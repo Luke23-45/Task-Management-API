@@ -327,8 +327,6 @@ Below are specific examples of using filtering, ordering, and pagination feature
 
 ### Pagination
 
-Assuming `PAGE_SIZE` is set to 10 in your settings:
-
 - **Get the first page of tasks:**
 
   ```
